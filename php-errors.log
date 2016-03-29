@@ -1,0 +1,2 @@
+[29-Mar-2016 21:46:13 Europe/Berlin] =====Starting request: /proj2_server/
+[29-Mar-2016 21:46:13 Europe/Berlin] PHP Fatal error:  Call to a member function prepare() on null in C:\xampp\htdocs\proj2_server\model\product_db.php on line 32

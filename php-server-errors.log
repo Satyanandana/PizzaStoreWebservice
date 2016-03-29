@@ -1,0 +1,314 @@
+[15-May-2015 19:53:20 Europe/Berlin] project uri = /rest/day
+[15-May-2015 19:53:20 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 37
+[15-May-2015 19:53:20 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 38
+[15-May-2015 19:53:20 Europe/Berlin] starting REST server request, resource =  method=POST
+[15-May-2015 19:53:20 Europe/Berlin] request at case day
+[15-May-2015 19:53:20 Europe/Berlin] rest server in handle_post_day
+[15-May-2015 19:53:20 Europe/Berlin] Server saw POSTed day = 2
+[15-May-2015 19:53:20 Europe/Berlin] project uri = /rest/orders
+[15-May-2015 19:53:20 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 37
+[15-May-2015 19:53:20 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 38
+[15-May-2015 19:53:20 Europe/Berlin] starting REST server request, resource =  method=POST
+[15-May-2015 19:53:20 Europe/Berlin] request at case orders
+[15-May-2015 19:53:20 Europe/Berlin] Server saw post data[{"customerID":"1"},[{"productID":"11","quantity":4},{"productID":"12","quantity":6}]]
+[15-May-2015 19:53:20 Europe/Berlin] $currentDay = 2
+[15-May-2015 19:53:20 Europe/Berlin] currentday = 2
+[15-May-2015 19:53:20 Europe/Berlin] deliveryday = 4
+[15-May-2015 19:53:20 Europe/Berlin] supplierID = 1
+[15-May-2015 19:53:20 Europe/Berlin] flourID = 11
+[15-May-2015 19:53:20 Europe/Berlin] cheeseID = 12
+[15-May-2015 19:53:20 Europe/Berlin] quantity of flour = 4
+[15-May-2015 19:53:20 Europe/Berlin] quantity of cheese = 6
+[15-May-2015 19:53:20 Europe/Berlin] Error in webapp , code 400: Insert failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'supplierID' in 'field list'
+[15-May-2015 19:53:20 Europe/Berlin] project uri = /rest/orders/00
+[15-May-2015 19:53:20 Europe/Berlin] starting REST server request, resource = 00 method=GET
+[15-May-2015 19:53:20 Europe/Berlin] request at case orders
+[15-May-2015 19:53:20 Europe/Berlin] hi from handle_get_orders
+[15-May-2015 19:53:20 Europe/Berlin] data after getting order: {"status":1}
+[15-May-2015 20:00:09 Europe/Berlin] project uri = /rest/day
+[15-May-2015 20:00:09 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 37
+[15-May-2015 20:00:09 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 38
+[15-May-2015 20:00:09 Europe/Berlin] starting REST server request, resource =  method=POST
+[15-May-2015 20:00:09 Europe/Berlin] request at case day
+[15-May-2015 20:00:09 Europe/Berlin] rest server in handle_post_day
+[15-May-2015 20:00:09 Europe/Berlin] Server saw POSTed day = 2
+[15-May-2015 20:00:09 Europe/Berlin] project uri = /rest/orders
+[15-May-2015 20:00:09 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 37
+[15-May-2015 20:00:09 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 38
+[15-May-2015 20:00:09 Europe/Berlin] starting REST server request, resource =  method=POST
+[15-May-2015 20:00:09 Europe/Berlin] request at case orders
+[15-May-2015 20:00:09 Europe/Berlin] Server saw post data[{"customerID":"1"},[{"productID":"11","quantity":2},{"productID":"12","quantity":3}]]
+[15-May-2015 20:00:09 Europe/Berlin] $currentDay = 2
+[15-May-2015 20:00:09 Europe/Berlin] currentday = 2
+[15-May-2015 20:00:09 Europe/Berlin] deliveryday = 3
+[15-May-2015 20:00:09 Europe/Berlin] supplierID = 1
+[15-May-2015 20:00:09 Europe/Berlin] flourID = 11
+[15-May-2015 20:00:09 Europe/Berlin] cheeseID = 12
+[15-May-2015 20:00:09 Europe/Berlin] quantity of flour = 2
+[15-May-2015 20:00:09 Europe/Berlin] quantity of cheese = 3
+[15-May-2015 20:00:09 Europe/Berlin] orderId = 1
+[15-May-2015 20:00:09 Europe/Berlin] hi from handle_post_orders, header = Location: http://localhost/proj2_server/rest/orders/1
+[15-May-2015 20:00:09 Europe/Berlin] project uri = /rest/orders/1
+[15-May-2015 20:00:09 Europe/Berlin] starting REST server request, resource = 1 method=GET
+[15-May-2015 20:00:09 Europe/Berlin] request at case orders
+[15-May-2015 20:00:09 Europe/Berlin] hi from handle_get_orders
+[15-May-2015 20:00:09 Europe/Berlin] data after getting order: {"orderID":"1","0":"1","customerID":"1","1":"1","orderday":"2","2":"2","deliveryday":"3","3":"3","flour_qty":"2","4":"2","cheese_qty":"3","5":"3","status":0,"6":"0"}
+[15-May-2015 20:02:04 Europe/Berlin] project uri = /rest/day
+[15-May-2015 20:02:04 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 37
+[15-May-2015 20:02:04 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 38
+[15-May-2015 20:02:04 Europe/Berlin] starting REST server request, resource =  method=POST
+[15-May-2015 20:02:04 Europe/Berlin] request at case day
+[15-May-2015 20:02:04 Europe/Berlin] rest server in handle_post_day
+[15-May-2015 20:02:04 Europe/Berlin] Server saw POSTed day = 3
+[15-May-2015 20:02:04 Europe/Berlin] project uri = /rest/orders/1
+[15-May-2015 20:02:04 Europe/Berlin] starting REST server request, resource = 1 method=GET
+[15-May-2015 20:02:04 Europe/Berlin] request at case orders
+[15-May-2015 20:02:04 Europe/Berlin] hi from handle_get_orders
+[15-May-2015 20:02:04 Europe/Berlin] data after getting order: {"orderID":"1","0":"1","customerID":"1","1":"1","orderday":"2","2":"2","deliveryday":"3","3":"3","flour_qty":"2","4":"2","cheese_qty":"3","5":"3","status":1,"6":"0"}
+[15-May-2015 20:04:32 Europe/Berlin] project uri = /rest/day
+[15-May-2015 20:04:32 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 37
+[15-May-2015 20:04:32 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 38
+[15-May-2015 20:04:32 Europe/Berlin] starting REST server request, resource =  method=POST
+[15-May-2015 20:04:32 Europe/Berlin] request at case day
+[15-May-2015 20:04:32 Europe/Berlin] rest server in handle_post_day
+[15-May-2015 20:04:32 Europe/Berlin] Server saw POSTed day = 4
+[15-May-2015 20:04:33 Europe/Berlin] project uri = /rest/orders
+[15-May-2015 20:04:33 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 37
+[15-May-2015 20:04:33 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 38
+[15-May-2015 20:04:33 Europe/Berlin] starting REST server request, resource =  method=POST
+[15-May-2015 20:04:33 Europe/Berlin] request at case orders
+[15-May-2015 20:04:33 Europe/Berlin] Server saw post data[{"customerID":"1"},[{"productID":"11","quantity":2},{"productID":"12","quantity":3}]]
+[15-May-2015 20:04:33 Europe/Berlin] $currentDay = 4
+[15-May-2015 20:04:33 Europe/Berlin] currentday = 4
+[15-May-2015 20:04:33 Europe/Berlin] deliveryday = 6
+[15-May-2015 20:04:33 Europe/Berlin] supplierID = 1
+[15-May-2015 20:04:33 Europe/Berlin] flourID = 11
+[15-May-2015 20:04:33 Europe/Berlin] cheeseID = 12
+[15-May-2015 20:04:33 Europe/Berlin] quantity of flour = 2
+[15-May-2015 20:04:33 Europe/Berlin] quantity of cheese = 3
+[15-May-2015 20:04:33 Europe/Berlin] orderId = 2
+[15-May-2015 20:04:33 Europe/Berlin] hi from handle_post_orders, header = Location: http://localhost/proj2_server/rest/orders/2
+[15-May-2015 20:04:33 Europe/Berlin] project uri = /rest/orders/2
+[15-May-2015 20:04:33 Europe/Berlin] starting REST server request, resource = 2 method=GET
+[15-May-2015 20:04:33 Europe/Berlin] request at case orders
+[15-May-2015 20:04:33 Europe/Berlin] hi from handle_get_orders
+[15-May-2015 20:04:33 Europe/Berlin] data after getting order: {"orderID":"2","0":"2","customerID":"1","1":"1","orderday":"4","2":"4","deliveryday":"6","3":"6","flour_qty":"2","4":"2","cheese_qty":"3","5":"3","status":0,"6":"0"}
+[15-May-2015 20:05:05 Europe/Berlin] project uri = /rest/day
+[15-May-2015 20:05:05 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 37
+[15-May-2015 20:05:05 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 38
+[15-May-2015 20:05:05 Europe/Berlin] starting REST server request, resource =  method=POST
+[15-May-2015 20:05:05 Europe/Berlin] request at case day
+[15-May-2015 20:05:05 Europe/Berlin] rest server in handle_post_day
+[15-May-2015 20:05:05 Europe/Berlin] Server saw POSTed day = 5
+[15-May-2015 20:05:05 Europe/Berlin] project uri = /rest/orders/2
+[15-May-2015 20:05:05 Europe/Berlin] starting REST server request, resource = 2 method=GET
+[15-May-2015 20:05:05 Europe/Berlin] request at case orders
+[15-May-2015 20:05:05 Europe/Berlin] hi from handle_get_orders
+[15-May-2015 20:05:05 Europe/Berlin] data after getting order: {"orderID":"2","0":"2","customerID":"1","1":"1","orderday":"4","2":"4","deliveryday":"6","3":"6","flour_qty":"2","4":"2","cheese_qty":"3","5":"3","status":0,"6":"0"}
+[15-May-2015 20:05:05 Europe/Berlin] project uri = /rest/orders
+[15-May-2015 20:05:05 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 37
+[15-May-2015 20:05:05 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 38
+[15-May-2015 20:05:05 Europe/Berlin] starting REST server request, resource =  method=POST
+[15-May-2015 20:05:05 Europe/Berlin] request at case orders
+[15-May-2015 20:05:05 Europe/Berlin] Server saw post data[{"customerID":"1"},[{"productID":"11","quantity":4},{"productID":"12","quantity":5}]]
+[15-May-2015 20:05:05 Europe/Berlin] $currentDay = 5
+[15-May-2015 20:05:05 Europe/Berlin] currentday = 5
+[15-May-2015 20:05:05 Europe/Berlin] deliveryday = 6
+[15-May-2015 20:05:05 Europe/Berlin] supplierID = 1
+[15-May-2015 20:05:05 Europe/Berlin] flourID = 11
+[15-May-2015 20:05:05 Europe/Berlin] cheeseID = 12
+[15-May-2015 20:05:05 Europe/Berlin] quantity of flour = 4
+[15-May-2015 20:05:05 Europe/Berlin] quantity of cheese = 5
+[15-May-2015 20:05:05 Europe/Berlin] orderId = 3
+[15-May-2015 20:05:05 Europe/Berlin] hi from handle_post_orders, header = Location: http://localhost/proj2_server/rest/orders/3
+[15-May-2015 20:05:06 Europe/Berlin] project uri = /rest/orders/3
+[15-May-2015 20:05:06 Europe/Berlin] starting REST server request, resource = 3 method=GET
+[15-May-2015 20:05:06 Europe/Berlin] request at case orders
+[15-May-2015 20:05:06 Europe/Berlin] hi from handle_get_orders
+[15-May-2015 20:05:06 Europe/Berlin] data after getting order: {"orderID":"3","0":"3","customerID":"1","1":"1","orderday":"5","2":"5","deliveryday":"6","3":"6","flour_qty":"4","4":"4","cheese_qty":"5","5":"5","status":0,"6":"0"}
+[15-May-2015 20:06:05 Europe/Berlin] project uri = /rest/day
+[15-May-2015 20:06:05 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 37
+[15-May-2015 20:06:05 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 38
+[15-May-2015 20:06:05 Europe/Berlin] starting REST server request, resource =  method=POST
+[15-May-2015 20:06:05 Europe/Berlin] request at case day
+[15-May-2015 20:06:05 Europe/Berlin] rest server in handle_post_day
+[15-May-2015 20:06:05 Europe/Berlin] Server saw POSTed day = 6
+[15-May-2015 20:06:05 Europe/Berlin] project uri = /rest/orders/2
+[15-May-2015 20:06:05 Europe/Berlin] starting REST server request, resource = 2 method=GET
+[15-May-2015 20:06:05 Europe/Berlin] request at case orders
+[15-May-2015 20:06:05 Europe/Berlin] hi from handle_get_orders
+[15-May-2015 20:06:05 Europe/Berlin] data after getting order: {"orderID":"2","0":"2","customerID":"1","1":"1","orderday":"4","2":"4","deliveryday":"6","3":"6","flour_qty":"2","4":"2","cheese_qty":"3","5":"3","status":1,"6":"0"}
+[15-May-2015 20:06:05 Europe/Berlin] project uri = /rest/orders/3
+[15-May-2015 20:06:05 Europe/Berlin] starting REST server request, resource = 3 method=GET
+[15-May-2015 20:06:05 Europe/Berlin] request at case orders
+[15-May-2015 20:06:05 Europe/Berlin] hi from handle_get_orders
+[15-May-2015 20:06:05 Europe/Berlin] data after getting order: {"orderID":"3","0":"3","customerID":"1","1":"1","orderday":"5","2":"5","deliveryday":"6","3":"6","flour_qty":"4","4":"4","cheese_qty":"5","5":"5","status":1,"6":"0"}
+[15-May-2015 20:17:20 Europe/Berlin] project uri = /rest/day
+[15-May-2015 20:17:20 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 37
+[15-May-2015 20:17:20 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 38
+[15-May-2015 20:17:20 Europe/Berlin] starting REST server request, resource =  method=POST
+[15-May-2015 20:17:20 Europe/Berlin] request at case day
+[15-May-2015 20:17:20 Europe/Berlin] rest server in handle_post_day
+[15-May-2015 20:17:20 Europe/Berlin] Server saw POSTed day = 7
+[15-May-2015 21:43:34 Europe/Berlin] project uri = /rest/day
+[15-May-2015 21:43:34 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 37
+[15-May-2015 21:43:34 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 38
+[15-May-2015 21:43:34 Europe/Berlin] starting REST server request, resource =  method=POST
+[15-May-2015 21:43:34 Europe/Berlin] request at case day
+[15-May-2015 21:43:34 Europe/Berlin] rest server in handle_post_day
+[15-May-2015 21:43:34 Europe/Berlin] Server saw POSTed day = 2
+[16-May-2015 00:10:08 Europe/Berlin] project uri = /rest/day
+[16-May-2015 00:10:08 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 37
+[16-May-2015 00:10:08 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 38
+[16-May-2015 00:10:08 Europe/Berlin] starting REST server request, resource =  method=POST
+[16-May-2015 00:10:08 Europe/Berlin] request at case day
+[16-May-2015 00:10:08 Europe/Berlin] rest server in handle_post_day
+[16-May-2015 00:10:08 Europe/Berlin] Server saw POSTed day = 2
+[16-May-2015 00:10:08 Europe/Berlin] project uri = /rest/orders
+[16-May-2015 00:10:08 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 37
+[16-May-2015 00:10:08 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 38
+[16-May-2015 00:10:08 Europe/Berlin] starting REST server request, resource =  method=POST
+[16-May-2015 00:10:08 Europe/Berlin] request at case orders
+[16-May-2015 00:10:08 Europe/Berlin] Server saw post data[{"customerID":"1"},[{"productID":"11","quantity":2},{"productID":"12","quantity":3}]]
+[16-May-2015 00:10:08 Europe/Berlin] $currentDay = 2
+[16-May-2015 00:10:08 Europe/Berlin] currentday = 2
+[16-May-2015 00:10:08 Europe/Berlin] deliveryday = 3
+[16-May-2015 00:10:08 Europe/Berlin] supplierID = 1
+[16-May-2015 00:10:08 Europe/Berlin] flourID = 11
+[16-May-2015 00:10:08 Europe/Berlin] cheeseID = 12
+[16-May-2015 00:10:08 Europe/Berlin] quantity of flour = 2
+[16-May-2015 00:10:08 Europe/Berlin] quantity of cheese = 3
+[16-May-2015 00:10:08 Europe/Berlin] orderId = 1
+[16-May-2015 00:10:08 Europe/Berlin] hi from handle_post_orders, header = Location: http://localhost/proj2_server/rest/orders/1
+[16-May-2015 00:10:08 Europe/Berlin] project uri = /rest/orders/1
+[16-May-2015 00:10:08 Europe/Berlin] starting REST server request, resource = 1 method=GET
+[16-May-2015 00:10:08 Europe/Berlin] request at case orders
+[16-May-2015 00:10:08 Europe/Berlin] hi from handle_get_orders
+[16-May-2015 00:10:08 Europe/Berlin] data after getting order: {"orderID":"1","0":"1","customerID":"1","1":"1","orderday":"2","2":"2","deliveryday":"3","3":"3","flour_qty":"2","4":"2","cheese_qty":"3","5":"3","status":0,"6":"0"}
+[16-May-2015 00:10:10 Europe/Berlin] project uri = /rest/day
+[16-May-2015 00:10:10 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 37
+[16-May-2015 00:10:10 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 38
+[16-May-2015 00:10:10 Europe/Berlin] starting REST server request, resource =  method=POST
+[16-May-2015 00:10:10 Europe/Berlin] request at case day
+[16-May-2015 00:10:10 Europe/Berlin] rest server in handle_post_day
+[16-May-2015 00:10:10 Europe/Berlin] Server saw POSTed day = 3
+[16-May-2015 00:10:10 Europe/Berlin] project uri = /rest/orders/1
+[16-May-2015 00:10:10 Europe/Berlin] starting REST server request, resource = 1 method=GET
+[16-May-2015 00:10:10 Europe/Berlin] request at case orders
+[16-May-2015 00:10:10 Europe/Berlin] hi from handle_get_orders
+[16-May-2015 00:10:10 Europe/Berlin] data after getting order: {"orderID":"1","0":"1","customerID":"1","1":"1","orderday":"2","2":"2","deliveryday":"3","3":"3","flour_qty":"2","4":"2","cheese_qty":"3","5":"3","status":1,"6":"0"}
+[16-May-2015 00:10:12 Europe/Berlin] project uri = /rest/day
+[16-May-2015 00:10:12 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 37
+[16-May-2015 00:10:12 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 38
+[16-May-2015 00:10:12 Europe/Berlin] starting REST server request, resource =  method=POST
+[16-May-2015 00:10:12 Europe/Berlin] request at case day
+[16-May-2015 00:10:12 Europe/Berlin] rest server in handle_post_day
+[16-May-2015 00:10:12 Europe/Berlin] Server saw POSTed day = 4
+[16-May-2015 02:24:10 Europe/Berlin] project uri = /rest/day/
+[16-May-2015 02:24:10 Europe/Berlin] starting REST server request, resource =  method=POST
+[16-May-2015 02:24:10 Europe/Berlin] request at case day
+[16-May-2015 02:24:10 Europe/Berlin] rest server in handle_post_day
+[16-May-2015 02:24:10 Europe/Berlin] Server saw POSTed day = 0
+[16-May-2015 02:24:10 Europe/Berlin] project uri = /rest/day/
+[16-May-2015 02:24:10 Europe/Berlin] starting REST server request, resource =  method=GET
+[16-May-2015 02:24:10 Europe/Berlin] request at case day
+[16-May-2015 02:24:10 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\proj2_server\rest\index.php on line 95
+[16-May-2015 02:24:10 Europe/Berlin] rest server in handle_get_day, day = Array
+[16-May-2015 02:24:11 Europe/Berlin] project uri = /rest/day/
+[16-May-2015 02:24:11 Europe/Berlin] starting REST server request, resource =  method=GET
+[16-May-2015 02:24:11 Europe/Berlin] request at case day
+[16-May-2015 02:24:11 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\proj2_server\rest\index.php on line 95
+[16-May-2015 02:24:11 Europe/Berlin] rest server in handle_get_day, day = Array
+[16-May-2015 02:25:49 Europe/Berlin] project uri = /rest/day/
+[16-May-2015 02:25:49 Europe/Berlin] starting REST server request, resource =  method=POST
+[16-May-2015 02:25:49 Europe/Berlin] request at case day
+[16-May-2015 02:25:49 Europe/Berlin] rest server in handle_post_day
+[16-May-2015 02:25:49 Europe/Berlin] Server saw POSTed day = 0
+[16-May-2015 02:25:50 Europe/Berlin] project uri = /rest/day/
+[16-May-2015 02:25:50 Europe/Berlin] starting REST server request, resource =  method=GET
+[16-May-2015 02:25:50 Europe/Berlin] request at case day
+[16-May-2015 02:25:50 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\proj2_server\rest\index.php on line 95
+[16-May-2015 02:25:50 Europe/Berlin] rest server in handle_get_day, day = Array
+[16-May-2015 02:25:52 Europe/Berlin] project uri = /rest/day
+[16-May-2015 02:25:52 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 37
+[16-May-2015 02:25:52 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 38
+[16-May-2015 02:25:52 Europe/Berlin] starting REST server request, resource =  method=POST
+[16-May-2015 02:25:52 Europe/Berlin] request at case day
+[16-May-2015 02:25:52 Europe/Berlin] rest server in handle_post_day
+[16-May-2015 02:25:52 Europe/Berlin] Server saw POSTed day = 2
+[16-May-2015 02:25:52 Europe/Berlin] project uri = /rest/orders
+[16-May-2015 02:25:52 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 37
+[16-May-2015 02:25:52 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\proj2_server\rest\index.php on line 38
+[16-May-2015 02:25:52 Europe/Berlin] starting REST server request, resource =  method=POST
+[16-May-2015 02:25:52 Europe/Berlin] request at case orders
+[16-May-2015 02:25:52 Europe/Berlin] Server saw post data[{"customerID":"1"},[{"productID":"11","quantity":3},{"productID":"12","quantity":4}]]
+[16-May-2015 02:25:52 Europe/Berlin] $currentDay = 2
+[16-May-2015 02:25:52 Europe/Berlin] currentday = 2
+[16-May-2015 02:25:52 Europe/Berlin] deliveryday = 4
+[16-May-2015 02:25:52 Europe/Berlin] supplierID = 1
+[16-May-2015 02:25:52 Europe/Berlin] flourID = 11
+[16-May-2015 02:25:52 Europe/Berlin] cheeseID = 12
+[16-May-2015 02:25:52 Europe/Berlin] quantity of flour = 3
+[16-May-2015 02:25:52 Europe/Berlin] quantity of cheese = 4
+[16-May-2015 02:25:52 Europe/Berlin] orderId = 1
+[16-May-2015 02:25:52 Europe/Berlin] hi from handle_post_orders, header = Location: http://localhost/proj2_server/rest/orders/1
+[16-May-2015 02:25:52 Europe/Berlin] project uri = /rest/orders/1
+[16-May-2015 02:25:52 Europe/Berlin] starting REST server request, resource = 1 method=GET
+[16-May-2015 02:25:52 Europe/Berlin] request at case orders
+[16-May-2015 02:25:52 Europe/Berlin] hi from handle_get_orders
+[16-May-2015 02:25:52 Europe/Berlin] data after getting order: {"orderID":"1","0":"1","customerID":"1","1":"1","orderday":"2","2":"2","deliveryday":"4","3":"4","flour_qty":"3","4":"3","cheese_qty":"4","5":"4","status":0,"6":"0"}
+[16-May-2015 02:25:52 Europe/Berlin] project uri = /rest/day/
+[16-May-2015 02:25:52 Europe/Berlin] starting REST server request, resource =  method=GET
+[16-May-2015 02:25:52 Europe/Berlin] request at case day
+[16-May-2015 02:25:52 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\proj2_server\rest\index.php on line 95
+[16-May-2015 02:25:52 Europe/Berlin] rest server in handle_get_day, day = Array
+[16-May-2015 02:25:52 Europe/Berlin] project uri = /rest/orders/1
+[16-May-2015 02:25:52 Europe/Berlin] starting REST server request, resource = 1 method=GET
+[16-May-2015 02:25:52 Europe/Berlin] request at case orders
+[16-May-2015 02:25:53 Europe/Berlin] hi from handle_get_orders
+[16-May-2015 02:25:53 Europe/Berlin] data after getting order: {"orderID":"1","0":"1","customerID":"1","1":"1","orderday":"2","2":"2","deliveryday":"4","3":"4","flour_qty":"3","4":"3","cheese_qty":"4","5":"4","status":0,"6":"0"}
+[16-May-2015 02:25:53 Europe/Berlin] project uri = /rest/orders/2
+[16-May-2015 02:25:53 Europe/Berlin] starting REST server request, resource = 2 method=GET
+[16-May-2015 02:25:53 Europe/Berlin] request at case orders
+[16-May-2015 02:25:53 Europe/Berlin] hi from handle_get_orders
+[16-May-2015 02:25:53 Europe/Berlin] data after getting order: {"status":1}
+[16-May-2015 02:25:53 Europe/Berlin] project uri = /rest/orders/3
+[16-May-2015 02:25:53 Europe/Berlin] starting REST server request, resource = 3 method=GET
+[16-May-2015 02:25:53 Europe/Berlin] request at case orders
+[16-May-2015 02:25:53 Europe/Berlin] hi from handle_get_orders
+[16-May-2015 02:25:53 Europe/Berlin] data after getting order: {"status":1}
+[16-May-2015 02:25:53 Europe/Berlin] project uri = /rest/orders/4
+[16-May-2015 02:25:53 Europe/Berlin] starting REST server request, resource = 4 method=GET
+[16-May-2015 02:25:53 Europe/Berlin] request at case orders
+[16-May-2015 02:25:53 Europe/Berlin] hi from handle_get_orders
+[16-May-2015 02:25:53 Europe/Berlin] data after getting order: {"status":1}
+[16-May-2015 02:25:53 Europe/Berlin] project uri = /rest/orders/5
+[16-May-2015 02:25:53 Europe/Berlin] starting REST server request, resource = 5 method=GET
+[16-May-2015 02:25:53 Europe/Berlin] request at case orders
+[16-May-2015 02:25:53 Europe/Berlin] hi from handle_get_orders
+[16-May-2015 02:25:53 Europe/Berlin] data after getting order: {"status":1}
+[16-May-2015 02:25:53 Europe/Berlin] project uri = /rest/orders/6
+[16-May-2015 02:25:53 Europe/Berlin] starting REST server request, resource = 6 method=GET
+[16-May-2015 02:25:53 Europe/Berlin] request at case orders
+[16-May-2015 02:25:53 Europe/Berlin] hi from handle_get_orders
+[16-May-2015 02:25:53 Europe/Berlin] data after getting order: {"status":1}
+[16-May-2015 02:25:53 Europe/Berlin] project uri = /rest/orders/7
+[16-May-2015 02:25:53 Europe/Berlin] starting REST server request, resource = 7 method=GET
+[16-May-2015 02:25:53 Europe/Berlin] request at case orders
+[16-May-2015 02:25:53 Europe/Berlin] hi from handle_get_orders
+[16-May-2015 02:25:53 Europe/Berlin] data after getting order: {"status":1}
+[16-May-2015 02:25:53 Europe/Berlin] project uri = /rest/orders/8
+[16-May-2015 02:25:53 Europe/Berlin] starting REST server request, resource = 8 method=GET
+[16-May-2015 02:25:53 Europe/Berlin] request at case orders
+[16-May-2015 02:25:53 Europe/Berlin] hi from handle_get_orders
+[16-May-2015 02:25:53 Europe/Berlin] data after getting order: {"status":1}
+[16-May-2015 02:25:53 Europe/Berlin] project uri = /rest/orders/9
+[16-May-2015 02:25:53 Europe/Berlin] starting REST server request, resource = 9 method=GET
+[16-May-2015 02:25:53 Europe/Berlin] request at case orders
+[16-May-2015 02:25:53 Europe/Berlin] hi from handle_get_orders
+[16-May-2015 02:25:53 Europe/Berlin] data after getting order: {"status":1}
+[16-May-2015 02:25:53 Europe/Berlin] project uri = /rest/orders/10
+[16-May-2015 02:25:53 Europe/Berlin] starting REST server request, resource = 10 method=GET
+[16-May-2015 02:25:53 Europe/Berlin] request at case orders
+[16-May-2015 02:25:53 Europe/Berlin] hi from handle_get_orders
+[16-May-2015 02:25:53 Europe/Berlin] data after getting order: {"status":1}
